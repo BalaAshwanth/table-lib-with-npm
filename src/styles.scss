@@ -1,0 +1,25 @@
+@import 'variable';
+
+h1 {
+  color: $red;
+  font-size: 26px;
+
+  &:hover {
+    color: rgb(0, 255, 149);
+  }
+}
+
+table {
+  text-align: center;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  th {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    background-color: #04AA6D;
+  }
+  td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+  }
+}
